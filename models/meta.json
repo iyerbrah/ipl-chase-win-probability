@@ -1,0 +1,38 @@
+{
+  "features": [
+    "runs_needed",
+    "balls_remaining",
+    "wickets_in_hand",
+    "required_run_rate",
+    "current_run_rate",
+    "target",
+    "venue_avg_score",
+    "league_avg_score"
+  ],
+  "train_until": 2023,
+  "val_season": 2024,
+  "test_seasons": [
+    2025,
+    2026
+  ],
+  "train_chase_win_rate": 0.5424769703172978,
+  "models": {
+    "logistic": {
+      "validation_log_loss": 0.381
+    },
+    "lightgbm": {
+      "n_trees": 206,
+      "num_leaves": 7,
+      "min_child_samples": 100,
+      "validation_log_loss": 0.3972
+    },
+    "mlp": {
+      "hidden_layers": [
+        64,
+        32
+      ],
+      "epochs": 3,
+      "validation_log_loss": 0.419
+    }
+  }
+}
