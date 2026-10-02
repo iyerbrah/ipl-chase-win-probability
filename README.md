@@ -1,8 +1,8 @@
 # IPL Chase Win Probability
 
-**Live app:** https://ipl-win-probability-rxgwz3kbdl6nwuk3rmyjwe.streamlit.app/
+Predicts the chasing team's chance of winning at every ball of an IPL run chase, compares three machine learning models on seasons they never saw, and uses the best one to measure which moments of a match carry the most tension.
 
-For any ball of an IPL run chase, this project predicts the chasing team's chance of winning. It compares three machine learning models on seasons they never saw, then uses the best one to measure which moments of a match carry the most tension.
+**Try it:** https://ipl-win-probability-rxgwz3kbdl6nwuk3rmyjwe.streamlit.app/
 
 ## Why I built it
 
@@ -103,7 +103,9 @@ python src/leverage.py
 ## Files
 
 ```
-app.py                 Streamlit app
+app.py                 Entry point: sidebar, match picker, page navigation
+views/                 The two pages: win probability and leverage
+charts.py              Data loading and chart pieces both pages use
 src/features.py        Feature definitions shared by every script
 src/build_dataset.py   Cricsheet JSON to one row per delivery
 src/train.py           Trains the three models
