@@ -1,4 +1,4 @@
-# IPL Chase Win Probability
+# IPL Win Probability Model
 
 Predicts the chasing team's chance of winning at every ball of an IPL run chase, compares three machine learning models on seasons they never saw, and uses the best one to measure which moments of a match carry the most tension.
 

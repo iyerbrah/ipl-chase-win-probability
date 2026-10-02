@@ -14,7 +14,7 @@ SHORT_NAMES = {
     "Royal Challengers Bangalore": "RCB", "Royal Challengers Bengaluru": "RCB", "Sunrisers Hyderabad": "SRH",
 }
 
-st.set_page_config(page_title="IPL Win Probability", page_icon=":material/sports_cricket:")
+st.set_page_config(page_title="IPL Win Probability Model", page_icon=":material/sports_cricket:")
 
 
 def pick_match(df):

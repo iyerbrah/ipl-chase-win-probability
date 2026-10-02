@@ -68,7 +68,7 @@ metrics = load_json("reports/metrics.json")
 main_model = load_json("models/leverage.json")["model"]
 overall, by_phase, seasons = metrics["overall"], metrics["by_phase"], metrics["test_seasons"]
 
-st.title("IPL chase win probability")
+st.title("IPL win probability model")
 st.write("The chasing team's chance of winning, predicted before every ball by three models.")
 
 df = load_predictions()
