@@ -1,0 +1,4 @@
+# For tests and linting only; Streamlit Cloud installs requirements.txt.
+-r requirements.txt
+pytest==9.2.0
+ruff==0.17.4
